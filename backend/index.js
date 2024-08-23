@@ -10,7 +10,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-const backendUrl = process.env.BACKEND_URL;
+//const backendUrl = process.env.BACKEND_URL;
 const frontendUrl = process.env.FRONTEND_URL;
 //const port = 3001;
 const port = process.env.PORT;
