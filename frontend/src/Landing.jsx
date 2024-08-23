@@ -35,7 +35,6 @@ const Landing = () => {
     formData.append("file", file);
 
     try {
-      console.log(process.env);
       const backendUrl = process.env.REACT_APP_BACKEND_URL;
       const response = await axios.post(
         `${backendUrl}/upload`,
